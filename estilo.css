@@ -1,0 +1,74 @@
+body{
+   background-color: whitesmoke;
+   font-family: sans-serif;
+}
+
+#Cabecalho{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+    text-align: center;
+}
+
+#conteudo{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+a{
+    color: black;
+    text-decoration: unset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#imgloja{
+    width: 100%;
+}
+
+#TituloDestaque{
+    display: flex;
+    justify-content: center;
+    text-shadow: gray 1px 1px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtodestaque{
+    border:gray 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+}
+
+.imgdt{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+h3{
+    text-align: center;
+    font-size: ;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:;
+    margin-right:;
+}
