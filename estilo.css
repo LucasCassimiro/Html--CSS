@@ -72,3 +72,46 @@ h3{
     margin-left:;
     margin-right:;
 }
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    margin-top: 30px;
+}
+
+#redesSociais{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.rede{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email{
+    margin-right: 50px;
+}
+
+#receba{
+    color: black;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button{
+    color: ;
+    width: 70px;
+    height: 40px;
+    border:cadetblue 1px solid;
+    font-size: 15px;
+    box-shadow: black 2px 2px 5px;
+}
