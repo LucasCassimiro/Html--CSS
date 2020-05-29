@@ -115,3 +115,40 @@ button{
     font-size: 15px;
     box-shadow: black 2px 2px 5px;
 }
+----------- 
+.container{
+
+}
+
+h3{
+    text-align: center;
+}
+
+#logoloja{
+    width: 100%;
+}
+
+#imagemlogo{
+    margin-bottom: 30px;
+}
+
+#titulodestaque2{
+    margin-bottom: 30px;
+}
+
+h5{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+#rodape2{
+    padding-top: 50px;
+    background-color: snow;
+}
+
+#receba2{
+    color:
+}
