@@ -116,8 +116,11 @@ button{
     box-shadow: black 2px 2px 5px;
 }
 ----------- 
-.container{
-
+.container-fluid{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
 }
 
 h3{
@@ -145,10 +148,12 @@ h6{
 }
 
 #rodape2{
-    padding-top: 50px;
+    padding-top: 30px;
     background-color: snow;
 }
 
 #receba2{
     color:
 }
+
+

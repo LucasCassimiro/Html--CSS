@@ -58,6 +58,9 @@
                         <h5 class="card-title">R$ 100,00</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Mochila Adidas modelo 2020</h6>
                         <p class="card-text"></p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Quero!
+                        </button>
                     </div>
                 </div>
             </div>
@@ -87,20 +90,53 @@
             <div class="col-md-6">
                 <p><img src="imagens/wpp.png" width="4%">+55 11 9 9999-9999</p>
                 <p><img src="imagens/insta.jpg" width="4%">@Loja</p>
-               
+
 
             </div>
             <div class="col-md-6">
                 <h3 id="receba2">Receba as novidades!</h3>
-                <input type="email" id="txtemail" placeholder="Digite seu email">
-                <button>Enviar</button>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Digite seu email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">Receba ofertas exclusivas e cupons de
+                            desconto!</small>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+
+
+                </form>
+
             </div>
 
         </div>
 
 
+        <!---Modal do produto 1-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Mochila Adidas</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Mochila ipermeavel, importada</p>
+                        <p>Em até 5x no cartão!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+        <!---Fim do Modal do produto 1-->
     </div>
 
 
