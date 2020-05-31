@@ -1,1 +1,1 @@
-git push origin gama/lctreinamento:master
+Aprendendo pouco a pouco! 
