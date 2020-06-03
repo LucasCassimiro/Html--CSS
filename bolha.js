@@ -7,7 +7,7 @@ function ordena(){
 
     for(vezes = 0; vezes < 8; vezes ++){
         for (pos = inicio; pos < fim - 1 - vezes; pos ++){
-            if (valores[pos] > valores[pos + 1]{
+            if (valores[pos] > valores[pos + 1]){
             tmp = valores[pos];
             valores[pos] = valores[pos + 1];
             valores[pos + 1] = tmp;
@@ -15,7 +15,7 @@ function ordena(){
         }
     }
 }
-
+ 
 ordena();
 console.log("Vetor ordenado...")
 console.log(valores);
